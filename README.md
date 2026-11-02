@@ -1,4 +1,4 @@
-# restricted-video_downloader
+# Telegram-restricted-video_downloader
 
 A lightweight Python script to download media (videos, documents, etc.) from a **specific topic/thread** inside a Telegram forum-style supergroup — without downloading the entire group's media.
 
