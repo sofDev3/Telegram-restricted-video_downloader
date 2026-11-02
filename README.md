@@ -25,8 +25,8 @@ This script uses [Telethon](https://github.com/LonamiWebs/Telethon)'s `iter_mess
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/<your-username>/restricted-video_downloader.git
-   cd restricted-video_downloader
+   git clone https://github.com/<your-username>/Telegram-restricted-video_downloader.git
+   cd Telegram-restricted-video_downloader
    ```
 
 2. **Create a virtual environment**
@@ -55,7 +55,6 @@ This script uses [Telethon](https://github.com/LonamiWebs/Telethon)'s `iter_mess
    API_ID = 12345678
    API_HASH = "your_actual_api_hash"
    ```
-   > ⚠️ `config.py` is git-ignored — never commit your real credentials.
 
 ## Usage
 
@@ -95,7 +94,7 @@ You can safely stop the script anytime with `Ctrl+C`. Files that were fully down
 ## Project structure
 
 ```
-restricted-video_downloader/
+Telegram-restricted-video_downloader/
 ├── topic_downloader.py     # main script
 ├── config.example.py       # credential template (safe to commit)
 ├── config.py                # your real credentials (gitignored, not committed)
